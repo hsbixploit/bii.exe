@@ -14,7 +14,7 @@
     ║                                                               ║
     ╚═══════════════════════════════════════════════════════════════╝
     
-    ACCESS CODE: gupron.exe
+    ACCESS CODE: GUPRON.EXE
     STATUS: UNDETECTED | DELTA EXECUTOR READY
 ]]
 
@@ -34,7 +34,7 @@ local Mouse = LocalPlayer:GetMouse()
 local Camera = Workspace.CurrentCamera
 
 -- Access Code Verification
-local ACCESS_CODE = "gupron.exe"
+local ACCESS_CODE = "HASBIW.EXE"
 local VERIFIED = false
 
 -- Create Access Code GUI
@@ -83,7 +83,7 @@ AccessTitle.Name = "Title"
 AccessTitle.Size = UDim2.new(1, 0, 0, 50)
 AccessTitle.Position = UDim2.new(0, 0, 0, 20)
 AccessTitle.BackgroundTransparency = 1
-AccessTitle.Text = "gupron.exe ultimate"
+AccessTitle.Text = "GUPRON.EXE ULTIMATE"
 AccessTitle.TextColor3 = Color3.fromRGB(147, 0, 211)
 AccessTitle.TextSize = 42
 AccessTitle.Font = Enum.Font.GothamBlack
@@ -1641,7 +1641,7 @@ LoadMainScript = function()
 
     -- Notification
     StarterGui:SetCore("SendNotification", {
-        Title = "HASBIW.EXE HUB ULTIMATE",
+        Title = GUPRON.EXE ULTIMATE",
         Text = "Script Loaded Successfully!\nPress H to toggle GUI\nBy: hasbiw.exe",
         Duration = 5
     })
