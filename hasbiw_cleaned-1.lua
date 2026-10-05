@@ -14,7 +14,7 @@
     ║                                                               ║
     ╚═══════════════════════════════════════════════════════════════╝
     
-    ACCESS CODE: HASBIW.EXE ONTOP
+    ACCESS CODE: gupron.exe
     STATUS: UNDETECTED | DELTA EXECUTOR READY
 ]]
 
@@ -34,7 +34,7 @@ local Mouse = LocalPlayer:GetMouse()
 local Camera = Workspace.CurrentCamera
 
 -- Access Code Verification
-local ACCESS_CODE = "HASBIW.EXE ONTOP"
+local ACCESS_CODE = "gupron.exe"
 local VERIFIED = false
 
 -- Create Access Code GUI
@@ -83,7 +83,7 @@ AccessTitle.Name = "Title"
 AccessTitle.Size = UDim2.new(1, 0, 0, 50)
 AccessTitle.Position = UDim2.new(0, 0, 0, 20)
 AccessTitle.BackgroundTransparency = 1
-AccessTitle.Text = "HASBIW.EXE"
+AccessTitle.Text = "gupron.exe ultimate"
 AccessTitle.TextColor3 = Color3.fromRGB(147, 0, 211)
 AccessTitle.TextSize = 42
 AccessTitle.Font = Enum.Font.GothamBlack
@@ -1597,7 +1597,7 @@ LoadMainScript = function()
     end)
 
     UserInputService.InputBegan:Connect(function(input, gameProcessed)
-        if not gameProcessed and input.KeyCode == Enum.KeyCode.Insert then
+        if not gameProcessed and input.KeyCode == Enum.KeyCode.H then
             MainFrame.Visible = not MainFrame.Visible
         end
     end)
@@ -1641,8 +1641,8 @@ LoadMainScript = function()
 
     -- Notification
     StarterGui:SetCore("SendNotification", {
-        Title = "HASBIW.EXE",
-        Text = "Script Loaded Successfully!\nPress INSERT to toggle GUI\nBy: hasbiw.exe",
+        Title = "HASBIW.EXE HUB ULTIMATE",
+        Text = "Script Loaded Successfully!\nPress H to toggle GUI\nBy: hasbiw.exe",
         Duration = 5
     })
 
